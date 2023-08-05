@@ -135,6 +135,7 @@ td.preco {
   display: flex;
   align-items: baseline;
   padding: 10px;
+  font-size: 1.2rem; 
 }
 div.contatos {
   text-align: center;
