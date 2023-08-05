@@ -1,152 +1,151 @@
 body {
-    background-image: url(img/vapores-de-cafe.jpg);
-    background-color: rgb(220, 220, 220);
-    width: 100%;
-    text-align: center;
+  background-image: url(img/vapores-de-cafe.jpg);
+  background-color: rgb(220, 220, 220);
+  width: 100%;
+  text-align: center;
 }
-main{
-    font-size: 18px;
+main {
+  font-size: 18px;
 }
-div.topo{
-    display: block;
-    margin-top: 0;
-    padding-top: 15px;     
-    color: hwb(60 62% 3%);
-    padding-bottom: 30px;
-    border-style: hidden;   
+div.topo {
+  display: block;
+  margin-top: 0;
+  padding-top: 15px;
+  color: hwb(60 62% 3%);
+  padding-bottom: 30px;
+  border-style: hidden;
 }
 .glass {
-    /* From https://css.glass */
-    background: rgba(28, 7, 7, 0.34);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.8px);
-    -webkit-backdrop-filter: blur(6.8px);
+  /* From https://css.glass */
+  background: rgba(28, 7, 7, 0.34);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.8px);
+  -webkit-backdrop-filter: blur(6.8px);
 }
 #logo {
-    position: absolute;
-    width: 120px;
-    top: 10px;  
-    bottom: 0px;
-    left: 0px;
-}      
+  position: absolute;
+  width: 120px;
+  top: 10px;
+  bottom: 0px;
+  left: 0px;
+}
 #fale {
-    position: absolute;
-    width: 60px;
-    top: 50px;  
-    bottom: 0px;
-    right: 20px;
-} 
+  position: absolute;
+  width: 60px;
+  top: 50px;
+  bottom: 0px;
+  right: 20px;
+}
 #ifood {
-    position: absolute;
-    width: 60px;
-    top: 50px;
-    bottom: 0;
-    right: 70px;
-}     
-    
-h2 {
-    color:hwb(60 62% 3%);
-}
-h3 {
-    color:hwb(60 62% 3%);
-}
-ul {
-    color:hwb(60 62% 3%);
-    text-align: left;
-}
-.lista {
-    color: hwb(60 62% 3%);
-}
-.subitem {
-    color: hwb(60 62% 3%);
+  position: absolute;
+  width: 60px;
+  top: 50px;
+  bottom: 0;
+  right: 70px;
 }
 
-.title .subtitle {    
-    letter-spacing: 0.1em;    
-    text-align: center;
-    
+h2 {
+  color: hwb(60 62% 3%);
+}
+h3 {
+  color: hwb(60 62% 3%);
+}
+ul {
+  color: hwb(60 62% 3%);
+  text-align: left;
+}
+.lista {
+  color: hwb(60 62% 3%);
+}
+.subitem {
+  color: hwb(60 62% 3%);
+}
+
+.title .subtitle {
+  letter-spacing: 0.1em;
+  text-align: center;
 }
 .title {
-    text-transform: capitalize;
-    font-size: 38px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top: 0;
+  text-transform: capitalize;
+  font-size: 38px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-top: 0;
 }
 .subtitle {
-    padding-top: 0;
-    font-size: 25px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: 0;
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 figure {
-    color:hwb(60 62% 3%);
-    text-align: left;
-    
+  color: hwb(60 62% 3%);
+  text-align: left;
 }
 .img {
-    display: block;
-    border-radius: 30px;
+  display: block;
+  border-radius: 30px;
 }
 .titCafe {
-    color: hwb(60 62% 3%) ;
+  color: hwb(60 62% 3%);
 }
 #cafe {
-    color: hwb(60 62% 3%);
+  color: hwb(60 62% 3%);
 }
 #logo {
-    display: block;
-    width: 180px;
+  display: block;
+  width: 180px;
 }
 #produtos {
-    color: rgb(240, 102, 51);
+  color: rgb(240, 102, 51);
 }
-.paragrafo{
-    color: hwb(60 62% 3%);
-    text-align: center;
-    width: 80%;
+.paragrafo {
+  color: hwb(60 62% 3%);
+  text-align: center;
+  width: 80%;
 }
-td.coluna{
-    width: 800px;
+td.coluna {
+  width: 800px;
 }
-td.preco{
-    color: hwb(60 62% 3%);
-    width: 150px;
-    text-align: center;
-    padding-right: 20px;
+td.preco {
+  color: hwb(60 62% 3%);
+  width: 150px;
+  text-align: center;
+  padding-right: 20px;
 }
 footer {
-    color: hwb(60 62% 3%);
+  color: hwb(60 62% 3%);
 }
-    .botton {
-        margin-top: 10px;
-        font-size: 15px;
-        vertical-align: bottom;
-        color: rgb(201, 181, 181);
-    }
-    .rodape {
-        color: hwb(60 62% 3%);
-        padding-left: 20px;
-    }
-    .box {
-        display: flex;
-        align-items: baseline;
-        padding: 10px;
-        
-    }
-    div.contatos {
-        text-align: center;
-        width:100%;              
-        padding-top: 0;
-        text-decoration: solid;               
-    }
-    div.mapa {
-        align-items: center;
-        width: 100%;
-    }
-    #contact{
-        font-weight: bold; 
-    }
-    #dados {
-        padding-top: 50px;
-    }
+.botton {
+  margin-top: 10px;
+  font-size: 15px;
+  vertical-align: bottom;
+  color: rgb(201, 181, 181);
+}
+.rodape {
+  color: hwb(60 62% 3%);
+  padding-left: 20px;
+}
+.box {
+  display: flex;
+  align-items: baseline;
+  padding: 10px;
+}
+div.contatos {
+  text-align: center;
+  width: 100%;
+  padding-top: 0;
+  text-decoration: solid;
+}
+div.mapa {
+  align-items: center;
+  width: 100%;
+}
+#contact {
+  font-weight: bold;
+}
+#dados {
+  padding-top: 50px;
+}
