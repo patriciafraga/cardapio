@@ -2,10 +2,9 @@ body {
   background-image: url(img/vapores-de-cafe.jpg);
   background-color: rgb(220, 220, 220);
   width: 100%;
+  padding-right: 2rem;
   text-align: center;
-}
-main {
-  font-size: 18px;
+
 }
 div.topo {
   display: block;
@@ -44,24 +43,12 @@ div.topo {
   bottom: 0;
   right: 70px;
 }
-
 h2 {
   color: hwb(60 62% 3%);
 }
 h3 {
   color: hwb(60 62% 3%);
 }
-ul {
-  color: hwb(60 62% 3%);
-  text-align: left;
-}
-.lista {
-  color: hwb(60 62% 3%);
-}
-.subitem {
-  color: hwb(60 62% 3%);
-}
-
 .title .subtitle {
   letter-spacing: 0.1em;
   text-align: center;
@@ -70,19 +57,23 @@ ul {
   text-transform: capitalize;
   font-size: 38px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  "Lucida Sans", Arial, sans-serif;
   padding-top: 0;
 }
 .subtitle {
   padding-top: 0;
   font-size: 25px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  "Lucida Sans", Arial, sans-serif;
 }
 
 figure {
   color: hwb(60 62% 3%);
   text-align: left;
+}
+figcaption {
+  font-size: 1rem;
+  text-align: center;
 }
 .img {
   display: block;
@@ -91,12 +82,37 @@ figure {
 .titCafe {
   color: hwb(60 62% 3%);
 }
-#cafe {
+#cafes {
   color: hwb(60 62% 3%);
 }
 #logo {
   display: block;
   width: 180px;
+}
+main {
+  display: flexbox;
+  padding-right: 2rem;
+  font-size: 1.2rem;  
+}
+nav {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+section {
+  padding: 1rem  0;
+  border-top: 0.07rem dashed hwb(60 40% 53%);
+  border-style: ;
+}
+ul {
+  color: hwb(60 62% 3%);
+  text-align: left;
+  display: block;
+}
+.lista {
+  color: hwb(60 62% 3%);
+}
+.subitem {
+  color: hwb(60 62% 3%);
 }
 #produtos {
   color: rgb(240, 102, 51);
@@ -104,29 +120,16 @@ figure {
 .paragrafo {
   color: hwb(60 62% 3%);
   text-align: center;
-  width: 80%;
+  width: 90%;
 }
 td.coluna {
-  width: 800px;
+  width: 90%;
 }
 td.preco {
-  color: hwb(60 62% 3%);
-  width: 150px;
+  width: 100%;
+  color: hwb(60 62% 3%);  
   text-align: center;
-  padding-right: 20px;
-}
-footer {
-  color: hwb(60 62% 3%);
-}
-.botton {
-  margin-top: 10px;
-  font-size: 15px;
-  vertical-align: bottom;
-  color: rgb(201, 181, 181);
-}
-.rodape {
-  color: hwb(60 62% 3%);
-  padding-left: 20px;
+  padding-right: 25px;
 }
 .box {
   display: flex;
@@ -148,4 +151,20 @@ div.mapa {
 }
 #dados {
   padding-top: 50px;
+}
+
+footer {
+  color: hwb(60 62% 3%);
+  font-size: 1rem;
+  font-weight: lighter;
+  padding: 0;
+}
+.botton {
+  margin-top: 10px;
+  vertical-align: bottom;
+  color: rgb(201, 181, 181);
+}
+.rodape {
+  color: hwb(60 62% 3%);
+  padding-left: 20px;
 }
