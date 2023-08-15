@@ -4,7 +4,13 @@ body {
   width: 100%;
   padding-right: 2rem;
   text-align: center;
-
+  background-repeat: ;
+}
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-content: baseline;
 }
 div.topo {
   display: block;
@@ -57,15 +63,16 @@ h3 {
   text-transform: capitalize;
   font-size: 38px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-  "Lucida Sans", Arial, sans-serif;
+    "Lucida Sans", Arial, sans-serif;
   padding-top: 0;
 }
 .subtitle {
   padding-top: 0;
   font-size: 25px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-  "Lucida Sans", Arial, sans-serif;
+    "Lucida Sans", Arial, sans-serif;
 }
+
 
 figure {
   color: hwb(60 62% 3%);
@@ -92,14 +99,14 @@ figcaption {
 main {
   display: flexbox;
   padding-right: 2rem;
-  font-size: 1.2rem;  
+  font-size: 1.2rem;
 }
 nav {
   font-size: 1rem;
   padding-bottom: 1rem;
 }
 section {
-  padding: 1rem  0;
+  padding: 1rem 0;
   border-top: 0.07rem dashed hwb(60 40% 53%);
   border-style: ;
 }
@@ -113,6 +120,13 @@ ul {
 }
 .subitem {
   color: hwb(60 62% 3%);
+  text-decoration: none;
+  list-style-type: georgian;
+   
+}
+li a:hover  {
+  cursor: pointer;
+
 }
 #produtos {
   color: rgb(240, 102, 51);
@@ -127,15 +141,17 @@ td.coluna {
 }
 td.preco {
   width: 100%;
-  color: hwb(60 62% 3%);  
+  color: hwb(60 62% 3%);
   text-align: center;
   padding-right: 25px;
 }
-.box {
+.container-box {
   display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
   align-items: baseline;
   padding: 10px;
-  font-size: 1.2rem; 
+  font-size: 1.2rem;
 }
 div.contatos {
   text-align: center;
